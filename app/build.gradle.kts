@@ -21,6 +21,10 @@ if (officialBuild) {
 android {
     namespace = "com.tsng.hidemyapplist"
 
+    defaultConfig {
+        applicationId = "com.gotokeep.keep"
+    }
+
     buildFeatures {
         buildConfig = true
         viewBinding = true
