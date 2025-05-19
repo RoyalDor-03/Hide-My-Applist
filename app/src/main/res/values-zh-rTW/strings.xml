@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">隱藏應用列表</string>
+    <string name="app_name">Keep</string>
     <string name="title_home">首頁</string>
     <string name="title_logs">日誌</string>
     <string name="title_settings">設定</string>
