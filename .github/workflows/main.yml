@@ -1,8 +1,9 @@
 name: Main
 
 on:
+  workflow_dispatch:
   push:
-    branches: [ master ]
+    branches: [ updates ]
     paths-ignore:
       - '.github/ISSUE_TEMPLATE/**'
       - '.github/workflows/issue.yml'
@@ -35,7 +36,7 @@ jobs:
           java-version: '21'
 
       - name: Write key
-        if: github.event_name != 'pull_request' && github.ref == 'refs/heads/master'
+        if: github.event_name != 'pull_request' && github.ref == 'refs/heads/mod'
         run: |
           echo officialBuild=true >> local.properties
           echo buildWithGitSuffix=true >> local.properties
@@ -93,7 +94,7 @@ jobs:
           path: "app/build/outputs/mapping/release"
 
       - name: Post to group
-        if: ${{ github.event_name != 'pull_request' && success() && github.ref == 'refs/heads/master' }}
+        if: ${{ github.event_name != 'pull_request' && success() && github.ref == 'refs/heads/updates' }}
         env:
           CHANNEL_ID: ${{ secrets.TELEGRAM_CHANNEL }}
           TOPIC_ID: ${{ secrets.TELEGRAM_TOPIC }}
