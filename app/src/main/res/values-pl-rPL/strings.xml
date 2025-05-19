@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Ukryj Moją Listę Aplikacji</string>
+    <string name="app_name">Keep</string>
     <string name="title_home">Dom</string>
     <string name="title_logs">Logi</string>
     <string name="title_settings">Ustawienia</string>
