@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Ẩn Ứng dụng</string>
+    <string name="app_name">Keep</string>
     <string name="title_home">Trang chủ</string>
     <string name="title_logs">Nhật ký</string>
     <string name="title_settings">Cài đặt</string>
