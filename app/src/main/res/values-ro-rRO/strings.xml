@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Ascunde Lista de Aplicații</string>
+    <string name="app_name">Keep</string>
     <string name="title_home">Acasă</string>
     <string name="title_logs">Logs</string>
     <string name="title_settings">Setări</string>
