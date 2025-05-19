@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Uygulama Listemi Gizle</string>
+    <string name="app_name">Keep</string>
     <string name="title_home">Ev</string>
     <string name="title_logs">Kütükler</string>
     <string name="title_settings">Ayarlar</string>
